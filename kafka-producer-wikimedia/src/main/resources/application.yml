@@ -1,5 +1,7 @@
 spring:
   kafka:
+    topics:
+      wikimedia-recentchange: wikimedia_recentchange
     producer:
       bootstrap-servers: localhost:9092
       key-serializer: org.apache.kafka.common.serialization.StringSerializer

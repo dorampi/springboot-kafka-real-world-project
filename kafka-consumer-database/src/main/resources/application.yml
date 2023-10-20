@@ -4,6 +4,8 @@ spring:
     username: root
     password: Mynewpassword@123
   kafka:
+    topics:
+      wikimedia-recentchange: wikimedia_recentchange
     consumer:
       bootstrap-servers: localhost:9092
       group-id: myGroup
