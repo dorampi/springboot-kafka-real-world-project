@@ -25,7 +25,7 @@ public class WikimediaChangesProducer {
     }
 
     public void sendMessage() throws InterruptedException {
-        String topic = "wikimedia-recentchange";
+        String topic = "wikimedia_recentchange";
         String url = "https://stream.wikimedia.org/v2/stream/recentchange";
 
         LOGGER.info("this is a test send message");
